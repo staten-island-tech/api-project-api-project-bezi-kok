@@ -2,4 +2,6 @@ npm -v                         - check current npm version
 
 npm install -g npm@latest      - install the latest npm version
 
-npm run build                  - builds the node_modules or something like that. IDK
+npm run build                  - IDK
+
+npm i parcel-bundler --save-dev   -builds the node-modules
