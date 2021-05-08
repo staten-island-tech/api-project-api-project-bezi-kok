@@ -1,0 +1,5 @@
+npm -v                         - check current npm version
+
+npm install -g npm@latest      - install the latest npm version
+
+npm run build                  - builds the node_modules or something like that. IDK

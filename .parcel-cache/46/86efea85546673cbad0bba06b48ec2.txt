@@ -1,0 +1,18 @@
+17
+62C:\Users\evgen\Documents\GitHub\api-project-bezi-kok\npm-notes132649168491931223 0
+60C:\Users\evgen\Documents\GitHub\api-project-bezi-kok\.github132649161210097879 1
+65C:\Users\evgen\Documents\GitHub\api-project-bezi-kok\package.json132649161210177873 0
+66C:\Users\evgen\Documents\GitHub\api-project-bezi-kok\src\js\DOM.js132649161210207750 0
+63C:\Users\evgen\Documents\GitHub\api-project-bezi-kok\.gitignore132649161210120345 0
+70C:\Users\evgen\Documents\GitHub\api-project-bezi-kok\package-lock.json132649161210167904 0
+60C:\Users\evgen\Documents\GitHub\api-project-bezi-kok\.vscode132649161210127743 1
+60C:\Users\evgen\Documents\GitHub\api-project-bezi-kok\LICENSE132649161210147875 0
+56C:\Users\evgen\Documents\GitHub\api-project-bezi-kok\src132649161210227754 1
+67C:\Users\evgen\Documents\GitHub\api-project-bezi-kok\src\index.html132649161210197880 0
+59C:\Users\evgen\Documents\GitHub\api-project-bezi-kok\src\js132649161210217885 1
+61C:\Users\evgen\Documents\GitHub\api-project-bezi-kok\src\scss132649161210237885 1
+72C:\Users\evgen\Documents\GitHub\api-project-bezi-kok\src\scss\style.scss132649161210237885 0
+68C:\Users\evgen\Documents\GitHub\api-project-bezi-kok\src\js\genre.js132649161210217885 0
+68C:\Users\evgen\Documents\GitHub\api-project-bezi-kok\src\js\index.js132649161210227754 0
+74C:\Users\evgen\Documents\GitHub\api-project-bezi-kok\.vscode\settings.json132649161210137756 0
+66C:\Users\evgen\Documents\GitHub\api-project-bezi-kok\.github\.keep132649161210097879 0
