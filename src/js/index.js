@@ -1,7 +1,7 @@
 import { DOMSelectors } from "./DOM";
 import { genres } from "./genre";
 
-// const key = "YOURKEYHERE";
+const key = "https://mugenmonkey.com/api/v0/ds3_builds";
 
 const query = async function () {
     try {
@@ -11,12 +11,12 @@ const query = async function () {
         data.results.forEach(build => {
             DOMSelectors.grid.insertAdjacentHTML(
                 "beforeend",
-                ``
+
                 );
         });
     }   catch (error) {
-        console.log(error)
-        alert("Yep, something went wrong! (╬ಠ益ಠ)")
+        console.log(error);
+        alert("Yep, something went wrong! (╬ಠ益ಠ)");
     }
 };
 query();
