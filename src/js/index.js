@@ -8,10 +8,10 @@ const query = async function () {
         const response = await fetch("https://mugenmonkey.com/api/v0/ds3_builds?per_page=100&page=100"
         );
         const data = await response.json();
-        data.results.forEach(build => {
+        data.results.forEach(DS3build => {
             DOMSelectors.grid.insertAdjacentHTML(
                 "beforeend",
-
+                ``
                 );
         });
     }   catch (error) {
