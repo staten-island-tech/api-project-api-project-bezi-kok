@@ -1,14 +1,14 @@
 import { DOMSelectors } from "./DOM";
-import { genres } from "./genre";
+// import { genres } from "./genre";
 
 const key = "https://mugenmonkey.com/api/v0/ds3_builds";
 
 const query = async function () {
     try {
-        const response = await fetch("https://mugenmonkey.com/api/v0/ds3_builds?per_page=100&page=100"
+        const response = await fetch("https://mugenmonkey.com/api/v0/ds3_builds?per_page=1&page=1"
         );
         const data = await response.json();
-        data.results.forEach((DS3build) => {
+        data.gender.forEach((DS3build) => {
             DOMSelectors.grid.insertAdjacentHTML(
                 "beforeend",
                 `<div class="info-div-build-stats">
