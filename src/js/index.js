@@ -5,9 +5,12 @@ const key = "https://mugenmonkey.com/api/v0/ds3_builds";
 
 const query = async function () {
     try {
-        const response = await fetch(`https://mugenmonkey.com/api/v0/ds3_builds?per_page=3&page=3&api_key=${key}`
+        const response = await fetch(`https://mugenmonkey.com/api/v0/ds3_builds?per_page=5&page=5&api_key=${key}`
         );
         const data = await response.json();
+        // data = JSON.parse(data);
+        // parsedData = JSON.parse(data);
+        // parsedData.ds3_builds.forEach((DS3build) => {
         data.ds3_builds.forEach((DS3build) => {
             DOMSelectors.grid.insertAdjacentHTML(
                 "beforeend",
