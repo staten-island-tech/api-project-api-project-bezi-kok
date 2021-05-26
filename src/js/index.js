@@ -5,10 +5,10 @@ const key = "https://mugenmonkey.com/api/v0/ds3_builds";
 
 const query = async function () {
     try {
-        const response = await fetch("https://mugenmonkey.com/api/v0/ds3_builds?per_page=1&page=1"
+        const response = await fetch(`https://mugenmonkey.com/api/v0/ds3_builds?per_page=3&page=3&api_key=${key}`
         );
         const data = await response.json();
-        data.gender.forEach((DS3build) => {
+        data.ds3_builds.forEach((DS3build) => {
             DOMSelectors.grid.insertAdjacentHTML(
                 "beforeend",
                 `<div class="info-div-build-stats">
@@ -20,7 +20,7 @@ const query = async function () {
                   <p class="build-id">${DS3build.id}</p>
                 </div>
                 <div class="core-stats">
-                  <p class="build-level">kedsh</p>
+                  <p class="build-level">${DS3build.level}</p>
                   <p class="build-vigor">hyt5</p>
                   <p class="build-attunement">htr5</p>
                   <p class="build-endurance">jdj</p>
@@ -68,11 +68,11 @@ const query = async function () {
                   <p class="updated-date">ewsdfcewsdzfcedw</p>
                 </div>
               </div>`
-                );
+            );
         });
     }   catch (error) {
         console.log(error);
         alert("Yep, something went wrong! (╬ಠ益ಠ)");
-    }
+        }
 };
 query();
