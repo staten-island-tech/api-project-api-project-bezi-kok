@@ -38,7 +38,34 @@ const query = async function () {
                   <p class="build-covenant">Covenant: ${DS3build.covenant}</p>
                   <p class="build-two-hand">Two_Hand: ${DS3build.two_hand}</p>
                 </div>
-               
+                // <div class="build-add-ons">
+                //   <p class="build-head-id">dwd</p>
+                //   <p class="build-body-id">wdws</p>
+                //   <p class="build-arms-id">wdds</p>
+                //   <p class="build-legs-id">wdds</p>
+                //   <p class="build-ring1-id">wdds</p>
+                //   <p class="build-ring2-id">wdds</p>
+                //   <p class="build-ring3-id">wdds</p>
+                //   <p class="build-ring4-id">wdds</p>
+                //   <p class="build-1h1-id">wdds</p>
+                //   <p class="build-1h2-id">wdds</p>
+                //   <p class="build-1h3-id">wdds</p>
+                //   <p class="build-rh1-id">ewfg</p>
+                //   <p class="build-rh2-id">ewfg</p>
+                //   <p class="build-rh3-id">ewfg</p>
+                // </div>
+                // <div class="build-spells">
+                //   <p class="build-spell1-id">jusw</p>
+                //   <p class="build-spell2-id">jusw</p>
+                //   <p class="build-spell3-id">jusw</p>
+                //   <p class="build-spell4-id">jusw</p>
+                //   <p class="build-spell5-id">jusw</p>
+                //   <p class="build-spell6-id">jusw</p>
+                //   <p class="build-spell7-id">jusw</p>
+                //   <p class="build-spell8-id">jusw</p>
+                //   <p class="build-spell9-id">jusw</p>
+                //   <p class="build-spell10-id">jusw</p>
+                // </div>
                 <div class="author-details">
                   <p class="author-name">Author's name: ${DS3build.author}</p>
                   <p class="creation-date">Created On: ${DS3build.created_at}</p>
