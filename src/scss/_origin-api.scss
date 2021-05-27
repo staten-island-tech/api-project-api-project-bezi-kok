@@ -1,0 +1,31 @@
+
+.origin-api-link {
+    margin: 1rem auto 1rem auto;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: lightgray;
+}
+
+.origin-api-link-p {
+    text-align: center;
+    color: green;
+}
+
+.origin-api-button {
+    text-align: center;
+    color: blue;
+}
+
+.rickroll-button {
+    text-align: center;
+    color: purple;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: underline;
+    color: blue;
+}
