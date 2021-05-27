@@ -4,17 +4,17 @@ import { DOMSelectors } from "./DOM";
 const key = "https://mugenmonkey.com/api/v0/ds3_builds";
 
 const query = async function () {
-    try {
-        const response = await fetch(`https://mugenmonkey.com/api/v0/ds3_builds?per_page=5&page=5&api_key=${key}`
-        );
-        const data = await response.json();
-        // data = JSON.parse(data);
-        // parsedData = JSON.parse(data);
-        // parsedData.ds3_builds.forEach((DS3build) => {
-        data.ds3_builds.forEach((DS3build) => {
-            DOMSelectors.grid.insertAdjacentHTML(
-                "beforeend",
-                `<div class="info-div-build-stats">
+  try {
+    const response = await fetch(
+      `https://mugenmonkey.com/api/v0/ds3_builds?per_page=5&page=5`
+    );
+    const data = await response.json();
+    const DS3build = data.ds3_builds[460458];
+    // parsedData.ds3_builds.forEach((DS3build) => {
+
+    DOMSelectors.grid.insertAdjacentHTML(
+      "beforeend",
+      `<div class="info-div-build-stats">
                 <div class="main-info">
                 <p class="build-title>Title: ${DS3build.title}</p>
                   <p class="build-gender">Gender: ${DS3build.gender}</p>
@@ -72,12 +72,12 @@ const query = async function () {
                   <p class="updated-date">Updated On:${DS3build.updated_at}</p>
                 </div>
               </div>`
-            );
-        });
-    }   catch (error) {
-        console.log(error);
-        alert("Yep, something went wrong, for the millionth time! (╬ಠ益ಠ)");
-        }
+    );
+  } catch (error) {
+    console.log(error);
+    alert("Yep, something went wrong, for the millionth time! (╬ಠ益ಠ)");
+  }
 };
+query();
 // searchQuery();
 // listen();
