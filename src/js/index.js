@@ -20,23 +20,23 @@ const query = async function () {
                   <p class="build-gender">Gender: ${DS3build.gender}</p>
                   <p class="build-starting-class">Starting Class: ${DS3build.starting_class}</p>
                   <p class="build-description">Description: ${DS3build.description}</p>
-                  <p class="build-user-id">${DS3build.user_id}</p>
-                  <p class="build-id">${DS3build.id}</p>
+                  <p class="build-user-id">User-Id: ${DS3build.user_id}</p>
+                  <p class="build-id">Id: ${DS3build.id}</p>
                 </div>
                 <div class="core-stats">
-                  <p class="build-level">${DS3build.level}</p>
-                  <p class="build-vigor">${DS3build.vigor}</p>
-                  <p class="build-attunement">${DS3build.attunement}</p>
-                  <p class="build-endurance">${DS3build.endurance}</p>
-                  <p class="build-vitality">${DS3build.vitality}</p>
-                  <p class="build-strength">${DS3build.strength}</p>
-                  <p class="build-dexterity">${DS3build.dexterity}</p>
-                  <p class="build-intelligence">${DS3build.intelligence}</p>
-                  <p class="build-faith">${DS3build.faith}</p>
-                  <p class="build-luck">${DS3build.luck}</p>
-                  <p class="build-hollowing">${DS3build.hollowing}</p>
-                  <p class="build-covenant">${DS3build.covenant}</p>
-                  <p class="build-two-hand">${DS3build.two_hand}</p>
+                  <p class="build-level">Level: ${DS3build.level}</p>
+                  <p class="build-vigor">Vigor: ${DS3build.vigor}</p>
+                  <p class="build-attunement">Attunement: ${DS3build.attunement}</p>
+                  <p class="build-endurance">Endurance: ${DS3build.endurance}</p>
+                  <p class="build-vitality">Vitality: ${DS3build.vitality}</p>
+                  <p class="build-strength">Strength: ${DS3build.strength}</p>
+                  <p class="build-dexterity">Dexterity: ${DS3build.dexterity}</p>
+                  <p class="build-intelligence">Intelligence: ${DS3build.intelligence}</p>
+                  <p class="build-faith">Faith: ${DS3build.faith}</p>
+                  <p class="build-luck">Luck: ${DS3build.luck}</p>
+                  <p class="build-hollowing">Hollowing: ${DS3build.hollowing}</p>
+                  <p class="build-covenant">Covenant: ${DS3build.covenant}</p>
+                  <p class="build-two-hand">Two_Hand: ${DS3build.two_hand}</p>
                 </div>
                 // <div class="build-add-ons">
                 //   <p class="build-head-id">dwd</p>
@@ -67,9 +67,9 @@ const query = async function () {
                 //   <p class="build-spell10-id">jusw</p>
                 // </div>
                 <div class="author-details">
-                  <p class="author-name">${DS3build.author}</p>
-                  <p class="creation-date">${DS3build.created_at}</p>
-                  <p class="updated-date">${DS3build.updated_at}</p>
+                  <p class="author-name">Author's name: ${DS3build.author}</p>
+                  <p class="creation-date">Created On: ${DS3build.created_at}</p>
+                  <p class="updated-date">Updated On:${DS3build.updated_at}</p>
                 </div>
               </div>`
             );
@@ -79,4 +79,5 @@ const query = async function () {
         alert("Yep, something went wrong, for the millionth time! (╬ಠ益ಠ)");
         }
 };
-query();
+// searchQuery();
+// listen();
