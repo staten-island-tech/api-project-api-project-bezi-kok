@@ -16,9 +16,10 @@ const query = async function () {
                 "beforeend",
                 `<div class="info-div-build-stats">
                 <div class="main-info">
-                  <p class="gender">${DS3build.gender}</p>
-                  <p class="build-starting-class">${DS3build.starting_class}</p>
-                  <p class="build-description">${DS3build.description}</p>
+                <p class="build-title>Title: ${DS3build.title}</p>
+                  <p class="build-gender">Gender: ${DS3build.gender}</p>
+                  <p class="build-starting-class">Starting Class: ${DS3build.starting_class}</p>
+                  <p class="build-description">Description: ${DS3build.description}</p>
                   <p class="build-user-id">${DS3build.user_id}</p>
                   <p class="build-id">${DS3build.id}</p>
                 </div>

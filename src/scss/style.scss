@@ -1,6 +1,10 @@
 $font-main: "Ariel", sans-serif;
 $font-second: "roboto", serif;
 
+// @import url(_search.scss);
+@use "_search.scss";
+
+html, 
 body {
   box-sizing: border-box;
   padding: 0;
@@ -10,8 +14,9 @@ body {
   font-family: $font-second;
   font-weight: 500;
 }
+
 body {
-  background-color: #111;
+  background-image:url("../images/darkSoulsIII.jpg");
 }
 
 .header {
@@ -19,11 +24,18 @@ body {
 
   margin: 3rem auto;
   text-align: center;
+  background-color: lightgray;
+  color: red;
 }
 .header-2 {
   margin: 1rem auto 2rem auto;
   text-align: center;
   font-size: 3.5rem;
+  background-color: lightgray;
+}
+
+.DS3-stats {
+
 }
 
 .info-div-build-stats {
@@ -33,12 +45,69 @@ body {
   width:80%;
   border: .1rem solid red;
   padding: .1rem;
+  background-color: black;
+  font-size: 1.3rem;
 }
 
 .main-stats {
   display: flex;
   flex-direction: column;
 }
+
+// @use "_search.scss"
+// $font-main: "Asap", sans-serif;
+// $font-second: "Josefin Slab", serif;
+
+// html,
+// body {
+//     box-sizing: border-box;
+//     padding: 0;
+//     margin: 0;
+//     font-size: 62.5%;
+//     color: white;
+//     font-family: $font-second;
+//     font-weight: 500;
+// }
+
+// .search-header {
+//     font-size: 4rem;
+//     margin: 2rem auto 3rem auto;
+//     text-align: center;
+// }
+
+// .search-header-link,
+// .search-header-link:link {
+//     text-decoration: none;
+//     color: lightblue;
+// }
+
+// .search-header-link:visited {
+//     text-decoration: none;
+//     color: blue;
+// }
+
+// .search-header-link:hover {
+//     text-decoration: underline;
+// }
+
+// .search-form {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     width: 60vw;
+//     margin: 2rem auto;
+// }
+
+// #search-area {
+//     width: 30vw;
+//     height: 10vh;
+//     font-size: 2rem;
+//     margin: 3rem auto;
+// }
+
+// .submit-button {
+//     font-size: 2rem;
+// }
 
 
 
