@@ -5,11 +5,10 @@ const key = "https://mugenmonkey.com/api/v0/ds3_builds";
 
 const query = async function () {
   try {
-    const response = await fetch(
-      `https://mugenmonkey.com/api/v0/ds3_builds?`
-    );
+    const response = await fetch(`https://mugenmonkey.com/api/v0/ds3_builds?`);
     const data = await response.json();
-    const DS3build = data.ds3_builds[460551];
+    console.log(data);
+    const DS3build = data.ds3_builds[461097];
     // parsedData.ds3_builds.forEach((DS3build) => {
 
     DOMSelectors.grid.insertAdjacentHTML(
@@ -50,7 +49,6 @@ const query = async function () {
     alert("Yep, something went wrong, for the millionth time! (╬ಠ益ಠ)");
   }
 };
-
 
 query();
 // searchQuery();

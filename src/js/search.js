@@ -13,10 +13,11 @@ const listen = function () {
           `https://mugenmonkey.com/api/v0/ds3_builds?&query=${searchParams}`
         );
         const data = await response.json();
-        const DS3build = data.ds3_builds[460551];   //// how the hell do I make this search all?
+
+        const DS3build = data.ds3_builds[461097]; //// how the hell do I make this search all?
         // parsedData.ds3_builds.forEach((DS3build) => {
-    
-        DOMSelectors.grid.insertAdjacentHTML(
+        console.log(DS3build);
+        DOMSelectors.searchGrid.insertAdjacentHTML(
           "beforeend",
           `<div class="info-api-div-build-stats">
                     <div class="main-info">
@@ -58,6 +59,5 @@ const listen = function () {
     searchQuery();
   });
 };
-
 
 listen();
