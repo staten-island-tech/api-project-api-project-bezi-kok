@@ -1,3 +1,0 @@
-require("./DOM");
-require("./genre");
-const key = "YOURKEYHERE";
