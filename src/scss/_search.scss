@@ -54,3 +54,35 @@ body {
 .submit-button {
     font-size: 2rem;
 }
+
+.header {
+  font-size: 5rem;
+
+  margin: 3rem auto;
+  text-align: center;
+  background-color: lightgray;
+  color: red;
+}
+.header-2 {
+  margin: 1rem auto 2rem auto;
+  text-align: center;
+  font-size: 3.5rem;
+  background-color: lightgray;
+}
+
+
+.info-api-div-build-stats {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width:80%;
+  border: .1rem solid red;
+  padding: .1rem;
+  background-color: black;
+  font-size: 1.3rem;
+}
+
+.main-stats {
+  display: flex;
+  flex-direction: column;
+}

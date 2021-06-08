@@ -8,7 +8,7 @@ const query = async function () {
     const response = await fetch(`https://mugenmonkey.com/api/v0/ds3_builds?`);
     const data = await response.json();
     console.log(data);
-    const DS3build = data.ds3_builds[461097];
+    const DS3build = data.ds3_builds[461785];
     // parsedData.ds3_builds.forEach((DS3build) => {
 
     DOMSelectors.grid.insertAdjacentHTML(
