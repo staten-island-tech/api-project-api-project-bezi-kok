@@ -5,3 +5,5 @@ npm install -g npm@latest      - install the latest npm version
 npm run build                  - IDK
 
 npm i parcel-bundler --save-dev   -builds the node-modules
+
+node -v                        - check current node version
