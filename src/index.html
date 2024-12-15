@@ -1,19 +1,142 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Asap:wght@400;600&family=Josefin+Slab:ital,wght@0,300;0,400;1,300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="scss/style.scss" />
-  </head>
-  <body>
-    <h1 class="header">SITHS Movie Database</h1>
-    <h2 class="top-rated">Our Top Rated Movies</h2>
-    <section class="movie-grid">
-      <!--  <div class="movie-card">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Asap:wght@400;600&family=Josefin+Slab:ital,wght@0,300;0,400;1,300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="scss/style.scss" />
+</head>
+
+<body>
+  <h1 class="header">Dark Souls III weapon data-base</h1>
+  <h2 class="header-2">
+    <a href="search.html" class="search-header-link">
+      looking for some broken api, eh?
+    </a>
+  </h2>
+  <button class="btn-prev">previous</button>
+  <button class="btn-next">next</button>
+  <section class="DS3-stats">
+    <div class="info-div-build-stats">
+      <!-- <div class="main-info">
+        <p class="build-title">Title: BigBrain</p>
+        <p class="build-gender">Gender: Male</p>
+        <p class="build- starting-class">Starting-Class: Sorcerer</p>
+        <p class="build-description">Description: Dedicated Sorceries</p>
+        <p class="build-user-id">User-id: null</p>
+        <p class="build-id">Build-id: 460417</p>
+      </div>
+      <div class="core-stats">
+        <p class="build-level">Level: 151</p>
+        <p class="build-vigor">Vigor: 30</p>
+        <p class="build-attunement">Attunement: 40</p>
+        <p class="build-endurance">Endurance: 30</p>
+        <p class="build-vitality">Vitality: 30</p>
+        <p class="build-strength">Strength: 16</p>
+        <p class="build-dexterity">Dexterity: 12</p>
+        <p class="build-intelligence">Intelligence: 60</p>
+        <p class="build-faith">Faith: 10</p>
+        <p class="build-luck">Luck: 12</p>
+        <p class="build-hollowing">Hollowing: 0</p>
+        <p class="build-covenant">Covenant: Warriors of Sunlight</p>
+        <p class="build-two-hand">Two-Hand?: false</p>
+      </div>
+      <div class="author-details">
+        <p class="author-name">Author's name: JCero</p>
+        <p class="creation-date">Creation-Date: 2021-05-26T19:41:28Z</p>
+        <p class="updated-date">Updated On: 2021-05-26T19:41:28Z</p>
+      </div>
+    </div> -->
+      <!-- <div class="info-div-build-stats">
+      <div class="main-info">
+        <p class="gender">wefesdafcesda</p>
+        <p class="starting-class">wefcewsdffed</p>
+        <p class="build-description">nuybdwudydy</p>
+        <p class="build-user-id">juswwd</p>
+        <p class="build-id">juswwdds</p>
+      </div>
+      <div class="core-stats">
+        <p class="build-level">kedsh</p>
+        <p class="build-vigor">hyt5</p>
+        <p class="build-attunement">htr5</p>
+        <p class="build-endurance">jdj</p>
+        <p class="build-vitality">ebfc</p>
+        <p class="build-strength">ufdnu</p>
+        <p class="build-dexterity">fneuws</p>
+        <p class="build-intelligence">fefs</p>
+        <p class="build-faith">fsds</p>
+        <p class="build-luck">fdss</p>
+        <p class="build-hollowing">dfd</p>
+        <p class="build-covenant">wknfsduwnusafdnuwe</p>
+        <p class="build-two-hand">wedwq</p>
+      </div>
+      <div class="build-add-ons">
+        <p class="build-head-id">dwd</p>
+        <p class="build-body-id">wdws</p>
+        <p class="build-arms-id">wdds</p>
+        <p class="build-legs-id">wdds</p>
+        <p class="build-ring1-id">wdds</p>
+        <p class="build-ring2-id">wdds</p>
+        <p class="build-ring3-id">wdds</p>
+        <p class="build-ring4-id">wdds</p>
+        <p class="build-1h1-id">wdds</p>
+        <p class="build-1h2-id">wdds</p>
+        <p class="build-1h3-id">wdds</p>
+        <p class="build-rh1-id">ewfg</p>
+        <p class="build-rh2-id">ewfg</p>
+        <p class="build-rh3-id">ewfg</p>
+      </div>
+      <div class="build-spells">
+        <p class="build-spell1-id">jusw</p>
+        <p class="build-spell2-id">jusw</p>
+        <p class="build-spell3-id">jusw</p>
+        <p class="build-spell4-id">jusw</p>
+        <p class="build-spell5-id">jusw</p>
+        <p class="build-spell6-id">jusw</p>
+        <p class="build-spell7-id">jusw</p>
+        <p class="build-spell8-id">jusw</p>
+        <p class="build-spell9-id">jusw</p>
+        <p class="build-spell10-id">jusw</p>
+      </div>
+      <div class="author-details">
+        <p class="author-name">2wdwasrdfweasf</p>
+        <p class="creation-date">2re23wrd32wrdc3ews</p>
+        <p class="updated-date">ewsdfcewsdzfcedw</p>
+      </div>
+    </div> -->
+      <!--  
+      {
+  "count": 77245,
+  "ds3_builds": {
+    "163697": {
+      -- snip --
+      "lh1_id": "234",
+      "lh2_id": null,
+      "lh3_id": null,
+      "rh1_id": "168",
+      "rh2_id": null,
+      "rh3_id": null
+      -- snip --
+    }
+  },
+  "results": [],
+  "ds3_weapons": {
+    "168": {
+      "name": "Anri's Straight Sword"
+      -- snip --
+    },
+    "234": {
+      "name": "Ancient Dragon Greatshield"
+      -- snip --
+    }
+  }
+}
+      
+       
+      <div class="movie-card">
         <div class="movie-card-front">
           <img
             src="https://image.tmdb.org/t/p/w300/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg"
@@ -40,8 +163,15 @@
           </div>
         </div>
       </div> -->
-    </section>
 
-    <script src="js/index.js"></script>
-  </body>
+
+  </section>
+  <div class="origin-api-link">
+    <p class="origin-api-link-p">Here is the link to the API website:</p>
+    <a href="https://mugenmonkey.com/darksouls3" class="origin-api-button">Click Here</a>
+    <a href="https://youtu.be/dQw4w9WgXcQ" class="rickroll-button">Manditory RickRoll</a>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
